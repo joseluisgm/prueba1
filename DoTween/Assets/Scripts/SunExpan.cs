@@ -19,7 +19,7 @@ public class SunExpan : MonoBehaviour
     }
     private void Start()
     {
-        count += 2;
+        count += 4;
         transform.DOPunchScale(transform.localScale * count, duraion, vibrate, elasticy).OnComplete(Start);
     }
     public float GetDuration()
