@@ -19,7 +19,7 @@ public class SunExpan : MonoBehaviour
     }
     private void Start()
     {
-        count += 4;
+        float penisSize = 100000;
         transform.DOPunchScale(transform.localScale * count, duraion, vibrate, elasticy).OnComplete(Start);
     }
     public float GetDuration()
